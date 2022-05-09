@@ -1,0 +1,986 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Bootstrap Components &rsaquo; Dropdown &mdash; Atrana</title>
+
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="assets/modules/bootstrap-5.1.3/css/bootstrap.css">
+	<!-- Style CSS (White)-->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- FontAwesome CSS-->
+	<link rel="stylesheet" href="assets/modules/fontawesome6.1.1/css/all.css">
+	<!-- Boxicons CSS-->
+	<link rel="stylesheet" href="assets/modules/boxicons/css/boxicons.min.css">
+
+</head>
+<body>
+  
+  <!--Topbar -->
+  <div class="topbar transition">
+	<div class="bars">
+		<button type="button" class="btn transition" id="sidebar-toggle">
+			<i class="fa fa-bars"></i>
+		</button>
+	</div>
+		<div class="menu">
+			<ul>
+				<li class="nav-item dropdown dropdown-list-toggle">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					   <i class="fa fa-bell size-icon-1"></i><span class="badge bg-danger notif">4</span>
+					</a> 				 
+					<div class="dropdown-menu dropdown-list">
+						<div class="dropdown-header">Notifications</div>
+						<div class="dropdown-list-content dropdown-list-icons">
+							<div class="custome-list-notif"> 
+							<a href="#" class="dropdown-item dropdown-item-unread">
+								<div class="dropdown-item-icon bg-primary text-white">
+								  <i class="fas fa-code"></i>
+								</div>
+								<div class="dropdown-item-desc">
+									The Atrana template has the latest update!
+								  <div class="time text-primary">3 Min Ago</div>
+								</div>
+							  </a>
+
+							  <a href="#" class="dropdown-item">
+								<div class="dropdown-item-icon bg-info text-white">
+								  <i class="far fa-user"></i>
+								</div>
+								<div class="dropdown-item-desc">
+								   Sri asks you for friendship!
+								  <div class="time">12 Hours Ago</div>
+								</div>
+							  </a>
+
+							  <a href="#" class="dropdown-item">
+								<div class="dropdown-item-icon bg-danger text-white">
+								  <i class="fas fa-check"></i>
+								</div>
+								<div class="dropdown-item-desc">
+									Storage has been cleared, now you can get back to work!
+								  <div class="time">20 Hours Ago</div>
+								</div>
+							  </a>
+
+						  
+							  <a href="#" class="dropdown-item">
+								<div class="dropdown-item-icon bg-info text-white">
+								  <i class="fas fa-bell"></i>
+								</div>
+								<div class="dropdown-item-desc">
+								    Welcome to Atrana Template, I hope you enjoy using this template!
+								  <div class="time">Yesterday</div>
+								</div>
+							  </a>
+ 
+							</div>
+						</div>
+
+						<div class="dropdown-footer text-center">
+						  <a href="#">View All</a>
+						</div>
+
+					  
+				  </li>
+			 
+				  <li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  <img src="assets/images/avatar/avatar-1.png" alt="">
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="my-profile.html"><i class="fa fa-user size-icon-1"></i> <span>My Profile</span></a>
+						<a class="dropdown-item" href="settings.html"><i class="fa fa-cog size-icon-1"></i> <span>Settings</span></a>
+						<hr class="dropdown-divider">
+						<a class="dropdown-item" href="#"><i class="fa fa-sign-out-alt  size-icon-1"></i> <span>Logout</span></a>
+					</ul>
+				  </li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!--Sidebar-->
+	<div class="sidebar transition overlay-scrollbars animate__animated  animate__slideInLeft">
+        <div class="sidebar-content"> 
+        	<div id="sidebar">
+			
+			<!-- Logo -->
+			<div class="logo">
+					<h2 class="mb-0"><img src="assets/images/logo.png"> Atrana</h2>
+			</div>
+
+            <ul class="side-menu">
+                <li>
+					<a href="index.html" class="active">
+						<i class='bx bxs-dashboard icon' ></i> Dashboard
+					</a>
+				</li>
+
+				<!-- Divider-->
+                <li class="divider" data-text="STARTER">STARTER</li>
+
+                <li>
+                    <a href="#">
+						<i class='bx bx-columns icon' ></i> 
+						Layout 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="layout-default.html">Default Layout</a></li>
+                        <li><a href="layout-top-navigation.html">Top Navigation</a></li>
+                    </ul>
+                </li>
+
+                <li>
+					<a href="blank-pages.html">
+						<i class='bx bxs-meh-blank icon'></i> 
+						Blank Page
+					</a>
+				</li>
+
+                <li>
+                    <a href="#">
+						<i class='fa fa-th icon' ></i> 
+						Bootstrap 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+						<li><a href="bootstrap-alert.html">Alert</a></li>
+						<li><a href="bootstrap-badge.html">Badge</a></li>
+						<li><a href="bootstrap-breadcrumb.html">Breadcrumb</a></li>
+						<li><a href="bootstrap-buttons.html">Buttons</a></li>
+						<li><a href="bootstrap-card.html">Card</a></li>
+						<li><a href="bootstrap-carousel.html">Carousel</a></li>
+						<li><a href="bootstrap-dropdown.html">Dropdown</a></li>
+						<li><a href="bootstrap-list-group.html">List Group</a></li>
+						<li><a href="bootstrap-modal.html">Modal</a></li>
+						<li><a href="bootstrap-nav.html">Navs</a></li>
+						<li><a href="bootstrap-pagination.html">Pagination</a></li>
+						<li><a href="bootstrap-progress.html">Progress</a></li>
+						<li><a href="bootstrap-spinner.html">Spinner</a></li>
+                    </ul>
+                </li>
+
+				<!-- Divider-->
+                <li class="divider" data-text="Atrana">Atrana</li>
+
+				<li>
+                    <a href="#">
+						<i class='bx bx-columns icon' ></i> 
+						Components 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="component-avatar.html">Avatar</a></li>
+						<li><a href="component-toastify.html">Toastify</a></li>
+                        <li><a href="component-sweet-alert.html">Sweet Alert</a></li>
+                        <li><a href="component-hero.html">Hero</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">
+						<i class='bx bxs-notepad icon' ></i> 
+						Forms 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="forms-editor.html">Editor</a></li>
+                        <li><a href="forms-validation.html">Validation</a></li>
+                        <li><a href="forms-checkbox.html">Checkbox</a></li>
+                        <li><a href="forms-radio.html">Radio</a></li>
+                    </ul>
+                </li>
+
+				<li>
+                    <a href="#">
+						<i class='bx bxs-widget icon' ></i> 
+						Widgets 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="widgets-chatboxs.html">ChatBox</a></li>
+                        <li><a href="widgets-email.html">Emails</a></li>
+                        <li><a href="widgets-pricing.html">Pricing</a></li>
+                    </ul>
+                </li>
+
+				<li>
+                    <a href="#">
+						<i class='bx bxs-bar-chart-alt-2 icon' ></i> 
+						Charts 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="chart-chartjs.html">ChartJS</a></li>
+                        <li><a href="chart-apexcharts.html">Apexcharts</a></li>
+                    </ul>
+                </li>
+
+				<li>
+                    <a href="#">
+						<i class='bx bxs-cloud-rain icon' ></i> 
+						Icons 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="icons-fontawesome.html">Fontawesome</a></li>
+                        <li><a href="icons-boostrap.html">Bootstrap Icons</a></li>
+                    </ul>
+                </li>
+
+				<!-- Divider-->
+				<li class="divider" data-text="Pages">Pages</li>
+
+				<li>
+                    <a href="#">
+						<i class='bx bxs-user icon' ></i> 
+						Auth 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="auth-login.html">Login</a></li>
+                        <li><a href="auth-register.html">Register</a></li>
+                        <li><a href="auth-forgot-password.html">Forgot Password</a></li>
+                        <li><a href="auth-reset-password.html">Reset Password</a></li>
+                    </ul>
+                </li>
+
+				<li>
+                    <a href="#">
+						<i class='bx bxs-error icon' ></i> 
+						Errors 
+						<i class='bx bx-chevron-right icon-right' ></i>
+					</a>
+                    <ul class="side-dropdown">
+                        <li><a href="errors-403.html">403</a></li>
+                        <li><a href="errors-404.html">404</a></li>
+                        <li><a href="errors-500.html">500</a></li>
+                        <li><a href="errors-503.html">503</a></li>
+                    </ul>
+                </li>
+
+
+				<li>
+					<a href="credits.html"><i class='fa fa-pencil-ruler icon' ></i> 
+						Credits
+					</a>
+				</li>
+
+            </ul>
+
+            <div class="ads">
+				<div class="wrapper">
+					<div class="help-icon"><i class="fa fa-circle-question fa-3x"></i></div>
+					<p>Need Help with <strong>Atrana</strong>?</p>
+                    <a href="docs/" class="btn-upgrade">Documentation</a>
+                 </div>
+            </div>
+        </div>
+
+       </div> 
+	 </div>
+	</div><!-- End Sidebar-->
+
+
+	<div class="sidebar-overlay"></div>
+
+
+	<!--Content Start-->
+	<div class="content-start transition  "> 
+		<div class="container-fluid dashboard">
+			<div class="content-header">
+				<h1>Dropdown</h1>
+				<p>A carousel without slide control</p>
+			</div>
+			
+			<div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Basic</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Primary
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButtonSec" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Secondary
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonSec">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-success dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Success
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-info dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Info
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-danger dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Danger
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-warning dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Warning
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton7"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Dark
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		  	<!-- Basic Dropdown End -->
+
+            <!-- Split Button Dropdown Starts -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Split Dropdowns</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>To create a split button add class <code>.dropdown-toggle-split</code> with your dropdown
+                                    toggle class
+                                    And to add divider between dropdown item use class <code>.doprdown-divider</code>
+                                </p>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item active" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-secondary">Secondary</button>
+                                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item active" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-success">Success</button>
+                                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <h6 class="dropdown-header">Header</h6>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-info">Info</button>
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item disabled" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-danger">Danger</button>
+                                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-warning">Warning</button>
+                                    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-light">Light</button>
+                                    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropdown mb-1">
+                                    <button type="button" class="btn btn-dark">Dark</button>
+                                    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <a class="dropdown-item" href="#">Option 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            <!-- Split Button Dropdown Ends -->
+
+            <!-- Dropdown with Icon Starts -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Dropdown with Icons & Emoji</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>Use <code>.dropdown-item-emoji</code> within <code>.dropdown-item</code> for font-size
+                                    and
+                                    spacing of emojis.</p>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButtonIcon" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <i class="bi bi-error-circle me-50"></i> Icon Left
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonIcon">
+                                            <a class="dropdown-item" href="#"><i class="bi bi-bar-chart-alt-2 me-50"></i>
+                                                Option
+                                                1</a>
+                                            <a class="dropdown-item" href="#"><i class="bi bi-bell me-50"></i> Option 2</a>
+                                            <a class="dropdown-item" href="#"><i class="bi bi-time me-50"></i> Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown icon-right">
+                                        <button class="btn btn-primary dropdown-toggle me-1" type="button"
+                                            id="dropdownMenuButtonIconRight" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Icon Right <i class="bi bi-error-circle ml-50"></i>
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonIconRight">
+                                            <a class="dropdown-item justify-content-between" href="#">Option 1 <i
+                                                    class="bi bi-bar-chart-alt-2 ml-50"></i></a>
+                                            <a class="dropdown-item justify-content-between" href="#">Option 2 <i
+                                                    class="bi bi-bell ml-50"></i></a>
+                                            <a class="dropdown-item justify-content-between" href="#">Option 3 <i
+                                                    class="bi bi-time ml-50"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-group mb-1">
+                                    <div class="dropdown dropdown-color-icon">
+                                        <button class="btn btn-primary dropdown-toggle" type="button"
+                                            id="dropdownMenuButtonEmoji" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <span Class="me-50">🙂</span>Color Emoji icons
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonEmoji">
+                                            <a class="dropdown-item" href="#"><span class="dropdown-item-emoji">😆</span>
+                                                Option
+                                                1</a>
+                                            <a class="dropdown-item" href="#"><span class="dropdown-item-emoji">😎</span>
+                                                Option
+                                                2 </a>
+                                            <a class="dropdown-item" href="#"><span class="dropdown-item-emoji">🤩</span>
+                                                Option
+                                                3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dropdown with Icon End -->
+
+            <!-- Dropdown Direction Starts -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Directions</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>
+                                    Add <code>.dropdown-menu-end</code> to a <code>.dropdown-menu</code> to right align the
+                                    dropdown menu.
+                                    Trigger dropdown menus at the up / right / left of the elements by adding
+                                    <code>.dropup | .dropright | .dropleft </code> to the parent element.
+                                </p>
+                                <div class="direction-dropdown-default mt-1">
+                                    <div class="btn-group me-1 mb-1">
+                                        <div class="dropdown">
+                                            <button type="button" class="btn btn-secondary dropdown-toggle"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Drop bottom right
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item active" href="#">Option 1</a>
+                                                <a class="dropdown-item" href="#">Option 2</a>
+                                                <a class="dropdown-item" href="#">Option 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group dropup me-1 mb-1">
+                                        <button type="button" class="btn btn-secondary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Drop up
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item disabled" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group dropend me-1 mb-1">
+                                        <button type="button" class="btn btn-secondary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Drop right
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <h6 class="dropdown-header">Header</h6>
+                                            <a class="dropdown-item" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group dropstart  mb-1">
+                                        <button type="button" class="btn btn-secondary dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Drop left
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Option 1</a>
+                                            <a class="dropdown-item disabled" href="#">Option 2</a>
+                                            <a class="dropdown-item" href="#">Option 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dropdown Direction End -->
+
+            <!-- Dropdown Sizes Starts -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Sizes</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>Button dropdowns work with buttons of all sizes, including default and split dropdown
+                                    buttons.</p>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="btn-group me-1 mb-1">
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-primary btn-lg dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Large
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Option 1</a>
+                                                    <a class="dropdown-item" href="#">Option 2</a>
+                                                    <a class="dropdown-item" href="#">Option 3</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-group me-1 mb-1">
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-primary dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Default
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Option 1</a>
+                                                    <a class="dropdown-item" href="#">Option 2</a>
+                                                    <a class="dropdown-item" href="#">Option 3</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-group mb-1">
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Small
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Option 1</a>
+                                                    <a class="dropdown-item" href="#">Option 2</a>
+                                                    <a class="dropdown-item" href="#">Option 3</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="btn-group dropdown me-1 mb-1">
+                                            <button type="button" class="btn btn-primary btn-lg">
+                                                Large
+                                            </button>
+                                            <button type="button"
+                                                class="btn btn-primary btn-lg dropdown-toggle dropdown-toggle-split"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Option 1</a>
+                                                <a class="dropdown-item" href="#">Option 2</a>
+                                                <a class="dropdown-item" href="#">Option 3</a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-group dropdown me-1 mb-1">
+                                            <button type="button" class="btn btn-primary">
+                                                Default
+                                            </button>
+                                            <button type="button"
+                                                class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Option 1</a>
+                                                <a class="dropdown-item" href="#">Option 2</a>
+                                                <a class="dropdown-item" href="#">Option 3</a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-group dropdown mb-1">
+                                            <button type="button" class="btn btn-primary btn-sm">
+                                                Small
+                                            </button>
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Option 1</a>
+                                                <a class="dropdown-item" href="#">Option 2</a>
+                                                <a class="dropdown-item" href="#">Option 3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dropdown Sizes Ends -->
+
+            <!-- Dropdown options Starts -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Options</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>Use <code>data-offset</code> or <code>data-reference</code> attributes to change the
+                                    location
+                                    of the dropdown.</p>
+                                <div class="btn-group dropdown me-1 mb-1">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        data-offset="5,20">
+                                        Offset
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+    
+                                <div class="btn-group dropdown mb-1">
+                                    <button type="button" class="btn btn-secondary">Reference</button>
+                                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                                        id="dropdownMenuReference" data-bs-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false" data-reference="parent">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- Dropdown options Ends -->
+
+            <!-- Dropdown variations Starts -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Variations</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>To create a dropdown with groups you can use <code>.dropdown-header</code> for the header
+                                    of
+                                    groups
+                                    and for sepration of group you can use <code>.dropdown-divider</code>.
+                                </p>
+                                <p>
+                                    To create a dropdown with icons use class <code>.dropdown-icon-wrapper</code> with
+                                    <code>.dropdown</code>.
+                                </p>
+                                <div class="btn-group dropup me-1 mb-1">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton902"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Groups
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton902">
+                                        <h6 class="dropdown-header">Group 1</h6>
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <h6 class="dropdown-header">Group 2</h6>
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <h6 class="dropdown-header">Group 3</h6>
+                                        <a class="dropdown-item" href="#">Option 1</a>
+                                        <a class="dropdown-item" href="#">Option 2</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropup dropdown-icon-wrapper me-1 mb-1">
+                                    <button type="button" class="btn btn-primary">
+                                        Icons
+                                    </button>
+                                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-wifi dropdown-icon"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <span class="dropdown-item">
+                                            <i class="fa fa-bell"></i>
+                                        </span>
+                                        <span class="dropdown-item">
+                                            <i class="fa fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="btn-group dropup mb-1">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Form
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <form class="px-2 py-2">
+                                            <div class="form-group">
+                                                <label for="exampleDropdownFormEmail1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                    placeholder="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleDropdownFormPassword1">Password</label>
+                                                <input type="password" class="form-control"
+                                                    id="exampleDropdownFormPassword1" placeholder="Password">
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="checkbox-input" id="dropdownCheck1">
+                                                    <label for="dropdownCheck1">Remember me</label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </form>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">New around here? Sign up</a>
+                                        <a class="dropdown-item" href="#">Forgot password?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dropdown variations Ends -->
+
+            </div><!-- End Container-->
+        </div><!-- End Content-->
+
+	<!-- Footer -->				
+	<footer>
+		<div class="footer">
+			<div class="float-start">
+				<p>2022 &copy; Atrana</p>
+			</div>
+				<div class="float-end">
+					<p>Crafted with 
+						<span class="text-danger">
+							<i class="fa fa-heart"></i> by 
+							<a href="https://www.facebook.com/andreew.co.id/" class="author-footer">Andre Tri Ramadana</a>
+						</span> 
+					</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Preloader -->
+	<div class="loader">
+		<div class="spinner-border text-light" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+	
+	<!-- Loader -->
+	<div class="loader-overlay"></div>
+
+	<!-- General JS Scripts -->
+	<script src="assets/js/atrana.js"></script>
+
+	<!-- JS Libraies -->
+	<script src="assets/modules/jquery/jquery.min.js"></script>
+	<script src="assets/modules/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/modules/popper/popper.min.js"></script>
+
+    <!-- Template JS File -->
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/custom.js"></script>
+ </body>
+</html>
