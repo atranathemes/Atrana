@@ -1,6 +1,6 @@
 <h1 align="center">Atrana Dashboard</h1>
 
-![Screenshot](https://raw.githubusercontent.com/atranathemes/Atrana/main/example.jpg)
+![Screenshot](https://raw.githubusercontent.com/atranathemes/Atrana-Dashoard/main/example.jpg)
 
 <p align="center">Atrana adalah Template Dashboard Admin yang dapat membantu Anda berkembang lebih cepat. Dibuat dengan Bootstrap 5.</p>
 <div align="center">
