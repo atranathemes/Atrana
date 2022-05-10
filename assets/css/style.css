@@ -1,6 +1,6 @@
 /**
  * @package     : Atrana - Dasboard Admin Template
- * @version     : 1.1
+ * @version     : 1.0
  * @author      : Andre Tri Ramadana
  * @url         : https://www.facebook.com/andreew.co.id/
  *
@@ -60,8 +60,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   font-family: Nunito;
-  /**background-color: #f2f7ff;**/
-  background-color: #081A51;
+  background-color: #ebf3ff;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
