@@ -2,7 +2,7 @@
 
 ![Screenshot](https://raw.githubusercontent.com/atranathemes/Atrana-Dashoard/main/example.jpg)
 
-<p align="center">Atrana adalah Template Dashboard Admin yang dapat membantu Anda berkembang lebih cepat. Dibuat dengan Bootstrap 5.</p>
+<p align="center">Atrana is an Admin Dashboard Template that can help you grow faster. Made with Bootstrap 5.</p>
 <div align="center">
 
 [![License](https://img.shields.io/github/license/zuramai/mazer.svg)](LICENSE)
