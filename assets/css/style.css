@@ -47,7 +47,6 @@
 /** 0. Import Font & animation  **/
 @import 'https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap';
 @import '../modules/animate/animate.min.css';
-@import 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap'; 
 
 /** 1. Font Color White CSS **/
 :root{
@@ -57,11 +56,12 @@
 
 /** 2. Default CSS  **/
 body {    
-  color: #5A5C69 !important;
+  color: #fff !important;
   font-size: 1rem;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif, Nunito;
-  background-color: #f2f7ff;
+  font-family: Nunito;
+  /**background-color: #f2f7ff;**/
+  background-color: #081A51;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
@@ -98,6 +98,9 @@ table thead {
 	line-height: 1.2;
 	margin-bottom: .5rem;
 	margin-top: 0;
+}
+p{
+ 	color: #7c8db5!important;
 }
  
 .transition {
@@ -310,7 +313,6 @@ a.dropdown-item{
 	padding: .5rem 1.5rem;
 	margin-bottom: 0;
 	font-size: .875rem;
-	color: #ffffff;
 	white-space: nowrap;
 }
  
@@ -334,6 +336,7 @@ a.dropdown-item{
 .sidebar{
 	overflow-y: auto;
 }
+ 
  
 .sidebar .logo h2{
 	color: #FFFFFF;
@@ -499,7 +502,7 @@ a.dropdown-item{
 
 
 /** 3.3 Scroll**/
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
 	width: 0px;
   }
   
@@ -514,16 +517,14 @@ a.dropdown-item{
   ::-webkit-scrollbar-thumb:hover {
 	background: #555;
   }
-
-
 /** 3.4 Card**/
-.card {
-	margin-bottom: 2.2rem;
-  }
-
+.card-description{
+	color: #7c8db5!important;
+}
 .card .card-header {
 	font-weight: 900;
 	font-size: 16px;
+	color: #555 !important;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #ffffff;
@@ -576,6 +577,7 @@ a.dropdown-item{
 .card .card-body {
 	padding: 1.4rem 1.7rem;
 	background-color: #ffffff;
+	margin-bottom: 30px;
   }
 .card .card-heading {
 	color: #555;
@@ -1087,7 +1089,9 @@ a.dropdown-item{
 }
 
 .card-footer {
-    background-color: #fff
+    background-color: #fff;
+	margin-top: -30px;
+	margin-bottom:30px;
 }
 
 /** 4.2 Profile **/
@@ -1141,6 +1145,9 @@ ul.timeline > li:before {
   @media (min-width: 768px) {
 	.price-tabs {
 	  margin-bottom: 60px;
+	}
+	.content-start .content-header p{
+		width: 500px;
 	}
   }
   
@@ -1438,7 +1445,8 @@ ul.timeline > li:before {
 /** 4.1 Auth **/
 #auth{
 	height:100vh;
-	overflow-x:hidden
+	overflow-x:hidden;
+	background:#fff;
 }
 #auth #auth-left{
 	background: linear-gradient(90deg,#081A51,#3f5491) ;
@@ -1514,7 +1522,10 @@ ul.timeline > li:before {
 	margin-right: 0;
 	min-height: 100vh;
 }
-
+.content-start{
+	background-color: #ebf3ff;
+ 	border-radius: 30px;
+}
 .content-start .wlecome {
 	border-radius: 10px 10px 0 0;
 	background: #D4DBF9;
@@ -1565,23 +1576,7 @@ ul.timeline > li:before {
 	display: flex;
 	justify-content: space-between;
   }
-
  
-  
-  .profile .button {
-	margin-top: 60px;
-  }
-  
-  .profile p {
-	font-weight: bold;
-	margin-top: 40px;
-	margin-bottom: -50px;
-  }
-  
-  .profile label {
-	color: grey;
-	font-size: 14px;
-  }
 
 .content-start .content-header h1 {
    font-size: 35px;
@@ -1592,7 +1587,6 @@ ul.timeline > li:before {
 	color: #7c8db5!important;
 	margin-bottom: 40px;
 	white-space: normal;
-	width: 600px;
 }
 
 
@@ -1645,7 +1639,7 @@ footer{
 	margin-left: 20px;
 	font-size: 14px;
 	margin-right: 10px;
-	margin-top: 30px;
+	margin-top: 60px;
 }
 footer .author-footer{
 	margin-left: -12px;
@@ -1669,7 +1663,9 @@ footer .author-footer{
 	.footer {
 		margin-left: 275px;
 	}
-
+	.content-start .content-header p {
+		width: 600px;
+	}
 	.topbar .bars button {
 		display: none;
 	}
@@ -1698,6 +1694,9 @@ footer .author-footer{
 	}
 	footer .author-footer{
 		margin-left: -10px;
+	}
+	.content-start .content-header p{
+		width: 330px;
 	}
 }
 
@@ -4330,9 +4329,22 @@ footer .author-footer{
   .progress .progress-bar{overflow:visible;position:relative}
   .progress .progress-bar.progress-label:before{color:#495057;content:attr(aria-valuenow) "%";font-size:.8rem;position:absolute;right:0;top:-1.3rem}
   
+  label{
+	color: #7c8db5!important;
+  }
+ 
+  .modal-body{
+	color: #7c8db5!important;
+  }
+  .tab-content > .active{
+	color: #7c8db5!important;
+  }
   article dl{
 	background-color: rgba(0, 0, 0, .02);
 	padding: 20px;
+  }
+  .text-gray-600{
+	color: #7c8db5!important;
   }
   .text-muted{
 	  color: #7c8db5!important;
@@ -4345,6 +4357,7 @@ footer .author-footer{
   }
   .fontawesome-icons .the-icon span{
 	  font-size: 24px;
+	  color: #7c8db5!important;
   }
  
   .form-check.form-check-secondary .form-check-input{
