@@ -28,7 +28,7 @@ Atrana is under [MIT License](./LICENSE).
 
 ## Author
 
-Mazer is created by <a href="https://www.facebook.com/andreew.co.id/">Andre Tri Ramadana</a>.
+Atrana is created by <a href="https://www.facebook.com/andreew.co.id/">Andre Tri Ramadana</a>.
 
 ## Donation
 
